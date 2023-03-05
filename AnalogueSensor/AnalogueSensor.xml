@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Aimee Simons\Desktop\2023\EEE3088F-Group-14\AnalogueSensor\AnalogueSensor.sch</source>
-    <date>2023/03/05 15:25:25</date>
+    <date>2023/03/05 20:59:02</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,6 +25,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="Populate">yes</field>
+        <field name="Price">0.0017</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -36,6 +37,7 @@
       <datasheet>http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf</datasheet>
       <fields>
         <field name="Populate">yes</field>
+        <field name="Price">0.04</field>
       </fields>
       <libsource lib="Sensor_Optical" part="LDR03" description="light dependent resistor"/>
       <sheetpath names="/" tstamps="/"/>

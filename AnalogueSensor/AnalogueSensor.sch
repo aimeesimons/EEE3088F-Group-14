@@ -24,6 +24,7 @@ F 1 "180" H 3259 2255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" H 3200 2300 50  0001 C CNN
 F 3 "~" H 3200 2300 50  0001 C CNN
 F 4 "yes" H 3200 2300 50  0001 C CNN "Populate"
+F 5 "0.0017" H 3200 2300 50  0001 C CNN "Price"
 	1    3200 2300
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 1 "LDR03" H 3270 3055 50  0000 L CNN
 F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 3375 3100 50  0001 C CNN
 F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 3200 3050 50  0001 C CNN
 F 4 "yes" H 3200 3100 50  0001 C CNN "Populate"
+F 5 "0.04" H 3200 3100 50  0001 C CNN "Price"
 	1    3200 3100
 	1    0    0    -1  
 $EndComp
