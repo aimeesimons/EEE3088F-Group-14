@@ -1,0 +1,26 @@
+"Source:","C:\Users\kkadz\Documents\1 HAT project\1 HAT project.sch"
+"Date:","2023/03/06 08:31:40"
+"Tool:","Eeschema (5.1.10)-1"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Price"
+"","","D1","LED","Device:LED","LED_SMD:LED-APA102-2020","~","1,04"
+"","","D2","LED","Device:LED","LED_SMD:LED-APA102-2020","~","1,04"
+"","","D3","LED","Device:LED","LED_SMD:LED-APA102-2020","~","1,04"
+"","","R1","200 ","Device:R","Resistor_SMD:R_0201_0603Metric","~","0,040"
+"","","R2","200","Device:R","Resistor_SMD:R_0201_0603Metric","~","0,040"
+"","","R3","200","Device:R","Resistor_SMD:R_0201_0603Metric","~","0,040"
+"","","U1","STM32F051C6Tx","MCU_ST_STM32F0:STM32F051C6Tx","Package_QFP:LQFP-48_7x7mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Price"
+"1","3","D1, D2, D3","LED","Device:LED","LED_SMD:LED-APA102-2020","~","1,04"
+"2","1","R1","200 ","Device:R","Resistor_SMD:R_0201_0603Metric","~","0,040"
+"3","2","R2, R3","200","Device:R","Resistor_SMD:R_0201_0603Metric","~","0,040"
+"4","1","U1","STM32F051C6Tx","MCU_ST_STM32F0:STM32F051C6Tx","Package_QFP:LQFP-48_7x7mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf",""
