@@ -23,13 +23,14 @@ F 2 "TTP223E-BA6:SOT95P285X126-6N" H 6400 3850 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810251711_Tontek-Design-Tech-TTP223E-BA6_C129457.pdf" H 6400 3750 50  0001 L CNN
 F 4 "SOT-23-6 Touch Screen Controller ICs" H 6400 3650 50  0001 L CNN "Description"
 F 5 "1.26" H 6400 3550 50  0001 L CNN "Height"
-F 6 "Tontec" H 6400 3450 50  0001 L CNN "Manufacturer_Name"
-F 7 "TTP223E-BA6" H 6400 3350 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "Sam&wing" H 6400 3450 50  0001 L CNN "Manufacturer_Name"
+F 7 "223" H 6400 3350 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "" H 6400 3250 50  0001 L CNN "Mouser Part Number"
 F 9 "" H 6400 3150 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 6400 3050 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6400 2950 50  0001 L CNN "Arrow Price/Stock"
-F 12 "0.1568" H 5450 3750 50  0001 C CNN "Price"
+F 12 "0.1" H 5450 3750 50  0001 C CNN "Price"
+F 13 "C1693666" H 5450 3750 50  0001 C CNN "JLCPCB Part #"
 	1    5450 3750
 	1    0    0    -1  
 $EndComp
