@@ -1,0 +1,57 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0f49447b-394e-4f6a-ab05-2cec98d3964f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "LDR" (shape input) (at 101.6 41.91 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8b1526be-dc93-4add-b78b-a8430b4869db)
+  )
+  (hierarchical_label "T-Sensor" (shape input) (at 97.79 95.25 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f8ea8fc0-a0ac-40c2-96a0-094c1ab664ec)
+  )
+
+  (sheet (at 38.1 29.21) (size 63.5 33.02) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000640c1e36)
+    (property "Sheetname" "Analogue Sensor" (at 38.1 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AnalogueSensor.kicad_sch" (at 38.1 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sensors"
+        (path "/0f49447b-394e-4f6a-ab05-2cec98d3964f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 39.37 82.55) (size 58.42 34.29) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-0000640c1ec4)
+    (property "Sheetname" "Digital Sensor" (at 39.37 81.8384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DigitalSensor.kicad_sch" (at 39.37 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sensors"
+        (path "/0f49447b-394e-4f6a-ab05-2cec98d3964f" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

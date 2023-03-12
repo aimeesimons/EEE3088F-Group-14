@@ -58,11 +58,11 @@ F 3 "" H 3200 3250 50  0001 C CNN
 	1    3200 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 2700 2    50   Input ~ 0
-LDR
 Wire Wire Line
 	3200 2700 4050 2700
 Connection ~ 3200 2700
 Wire Wire Line
 	3200 2700 3200 2950
+Text HLabel 4050 2700 2    50   Input ~ 0
+LDR
 $EndSCHEMATC

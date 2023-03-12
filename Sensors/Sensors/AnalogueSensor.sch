@@ -63,6 +63,6 @@ Wire Wire Line
 Connection ~ 3200 2700
 Wire Wire Line
 	3200 2700 3200 2950
-Text HLabel 4000 2700 0    50   Input ~ 0
+Text HLabel 4050 2700 2    50   Input ~ 0
 LDR
 $EndSCHEMATC

@@ -25,4 +25,8 @@ U 640C1EC4
 F0 "Digital Sensor" 50
 F1 "DigitalSensor.sch" 50
 $EndSheet
+Text HLabel 4000 1650 0    50   Input ~ 0
+LDR
+Text HLabel 3850 3750 0    50   Input ~ 0
+T-Sensor
 $EndSCHEMATC
