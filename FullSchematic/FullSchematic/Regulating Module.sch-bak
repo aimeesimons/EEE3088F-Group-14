@@ -1,0 +1,129 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Regulating Module"
+Date "2023-03-05"
+Rev "V1.0"
+Comp "EEE3088F - Team 14"
+Comment1 "Designed By Ashik John"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM1117-3.3 U2
+U 1 1 6408724E
+P 5250 3650
+F 0 "U2" H 5250 3892 50  0000 C CNN
+F 1 "LM1117-3.3" H 5250 3801 50  0000 C CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 5250 3650 50  0001 C CNN
+F 4 "0.146" H 5250 3650 50  0001 C CNN "Price"
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 64088BE6
+P 4600 3750
+F 0 "C3" H 4300 3600 50  0000 L CNN
+F 1 "10uF" H 4200 3500 50  0000 L CNN
+F 2 "CL31A106KBHNNNE" H 4600 3750 50  0001 C CNN
+F 3 "~" H 4600 3750 50  0001 C CNN
+F 4 "0.03" H 4600 3750 50  0001 C CNN "Price"
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 64089837
+P 5750 3750
+F 0 "C4" H 5842 3796 50  0000 L CNN
+F 1 "1uF" H 5842 3705 50  0000 L CNN
+F 2 "CL05A105KP5NNNC" H 5750 3750 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+F 4 "0.01" H 5750 3750 50  0001 C CNN "Price"
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0106
+U 1 1 6408A238
+P 5250 4350
+F 0 "#GND0106" H 5250 4250 50  0001 C CNN
+F 1 "0" H 5250 4200 50  0000 C CNN
+F 2 "" H 5250 4350 50  0001 C CNN
+F 3 "~" H 5250 4350 50  0001 C CNN
+	1    5250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0107
+U 1 1 6408A7BA
+P 4600 3950
+F 0 "#GND0107" H 4600 3850 50  0001 C CNN
+F 1 "0" H 4600 3800 50  0000 C CNN
+F 2 "" H 4600 3950 50  0001 C CNN
+F 3 "~" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0108
+U 1 1 6408ABA4
+P 5750 3950
+F 0 "#GND0108" H 5750 3850 50  0001 C CNN
+F 1 "0" H 5750 3800 50  0000 C CNN
+F 2 "" H 5750 3950 50  0001 C CNN
+F 3 "~" H 5750 3950 50  0001 C CNN
+	1    5750 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3650 4950 3650
+Wire Wire Line
+	4600 3850 4600 3950
+$Comp
+L Device:R_Small_US R3
+U 1 1 6408BE24
+P 5450 4050
+F 0 "R3" V 5550 4000 50  0000 C CNN
+F 1 "1.5k" V 5650 4000 50  0000 C CNN
+F 2 "" H 5450 4050 50  0001 C CNN
+F 3 "~" H 5450 4050 50  0001 C CNN
+F 4 "0.001" H 5450 4050 50  0001 C CNN "Price"
+	1    5450 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3950 5250 4050
+Wire Wire Line
+	5250 4050 5350 4050
+Connection ~ 5250 4050
+Wire Wire Line
+	5250 4050 5250 4350
+Wire Wire Line
+	5550 4050 5600 4050
+Wire Wire Line
+	5600 4050 5600 3650
+Wire Wire Line
+	5600 3650 5550 3650
+Wire Wire Line
+	5600 3650 5750 3650
+Connection ~ 5600 3650
+Wire Wire Line
+	5750 3850 5750 3950
+Text GLabel 4350 3650 0    50   Input ~ 0
+B+
+Wire Wire Line
+	4350 3650 4600 3650
+Connection ~ 4600 3650
+Wire Wire Line
+	5750 3650 6100 3650
+Connection ~ 5750 3650
+Text GLabel 6100 3650 2    50   Output ~ 0
+Vboard
+$EndSCHEMATC
