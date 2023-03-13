@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Aimee Simons\Desktop\2023\EEE3088F-Group-14\FullSchematic\FullSchematic\FullSchematic.kicad_sch</source>
-    <date>2023/03/12 22:25:43</date>
+    <date>2023/03/13 07:45:12</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -283,14 +283,14 @@
       <footprint>Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal</footprint>
       <fields>
         <field name="JLCPCB Part #">C24497</field>
-        <field name="Price">0.0009</field>
-        <field name="Price ( 1 board)">0.0009</field>
-        <field name="Price (5 boards)">0.0045</field>
+        <field name="Price">0.08</field>
+        <field name="Price ( 1 board)">0.32</field>
+        <field name="Price (5 boards)">1.6</field>
       </fields>
       <libsource lib="Sensors-rescue" part="CAP-pspice" description=""/>
-      <property name="Price" value="0.0009"/>
-      <property name="Price ( 1 board)" value="0.0009"/>
-      <property name="Price (5 boards)" value="0.0045"/>
+      <property name="Price" value="0.08"/>
+      <property name="Price ( 1 board)" value="0.32"/>
+      <property name="Price (5 boards)" value="1.6"/>
       <property name="JLCPCB Part #" value="C24497"/>
       <property name="Sheetname" value="Digital Sensor"/>
       <property name="Sheetfile" value="DigitalSensor.kicad_sch"/>
@@ -508,15 +508,15 @@
       <value>RED</value>
       <fields>
         <field name="JLCPCB Part #">C2286</field>
-        <field name="Price">0.005</field>
-        <field name="Price ( 1 board)">0.005</field>
-        <field name="Price (5 boards)">0.025</field>
+        <field name="Price">0.01</field>
+        <field name="Price ( 1 board)">0.01</field>
+        <field name="Price (5 boards)">0.05</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="Price ( 1 board)" value="0.005"/>
-      <property name="Price (5 boards)" value="0.025"/>
+      <property name="Price ( 1 board)" value="0.01"/>
+      <property name="Price (5 boards)" value="0.05"/>
       <property name="JLCPCB Part #" value="C2286"/>
-      <property name="Price" value="0.005"/>
+      <property name="Price" value="0.01"/>
       <property name="Sheetname" value="Charging"/>
       <property name="Sheetfile" value="Charging Module.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -590,6 +590,46 @@
       <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Power Module/Charging/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-0000640501de/"/>
       <tstamps>05b678c0-9620-4210-9f01-6ba72df4d05d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <fields>
+        <field name="JLCPCB Part #">C17888</field>
+        <field name="Price">0.003</field>
+        <field name="Price ( 1 board)">0.012</field>
+        <field name="Price (5 boards)">0.06</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="JLCPCB Part #" value="C17888"/>
+      <property name="Price" value="0.003"/>
+      <property name="Price ( 1 board)" value="0.012"/>
+      <property name="Price (5 boards)" value="0.06"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Module/Charging/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-0000640501de/"/>
+      <tstamps>0bcdf340-e7c3-4456-9b43-1c0c6a3564d7</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0</value>
+      <fields>
+        <field name="JLCPCB Part #">C17888</field>
+        <field name="Price">0.003</field>
+        <field name="Price ( 1 board)">0.012</field>
+        <field name="Price (5 boards)">0.06</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="JLCPCB Part #" value="C17888"/>
+      <property name="Price" value="0.003"/>
+      <property name="Price ( 1 board)" value="0.012"/>
+      <property name="Price (5 boards)" value="0.06"/>
+      <property name="Sheetname" value="Charging"/>
+      <property name="Sheetfile" value="Charging Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Module/Charging/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-0000640501de/"/>
+      <tstamps>89c7b721-19d8-401d-bcf7-d0014591e4d2</tstamps>
     </comp>
     <comp ref="TP15">
       <value>TestPoint</value>
@@ -793,20 +833,60 @@
       <sheetpath names="/Power Module/Regulating/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d/"/>
       <tstamps>00000000-0000-0000-0000-00006408be24</tstamps>
     </comp>
+    <comp ref="R16">
+      <value>0</value>
+      <fields>
+        <field name="JLCPCB Part #">C17888</field>
+        <field name="Price">0.003</field>
+        <field name="Price ( 1 board)">0.012</field>
+        <field name="Price (5 boards)">0.06</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="JLCPCB Part #" value="C17888"/>
+      <property name="Price" value="0.003"/>
+      <property name="Price ( 1 board)" value="0.012"/>
+      <property name="Price (5 boards)" value="0.06"/>
+      <property name="Sheetname" value="Regulating"/>
+      <property name="Sheetfile" value="Regulating Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Module/Regulating/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d/"/>
+      <tstamps>a5adb36d-b1a8-4f6b-8c7b-fad228caad7c</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0</value>
+      <fields>
+        <field name="JLCPCB Part #">C17888</field>
+        <field name="Price">0.003</field>
+        <field name="Price ( 1 board)">0.012</field>
+        <field name="Price (5 boards)">0.06</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="JLCPCB Part #" value="C17888"/>
+      <property name="Price" value="0.003"/>
+      <property name="Price ( 1 board)" value="0.012"/>
+      <property name="Price (5 boards)" value="0.06"/>
+      <property name="Sheetname" value="Regulating"/>
+      <property name="Sheetfile" value="Regulating Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Module/Regulating/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d/"/>
+      <tstamps>09a05a1e-f842-45d8-a247-ed00e95d02f9</tstamps>
+    </comp>
     <comp ref="U1">
       <value>LM1117-3.3</value>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
       <fields>
-        <field name="JLCPCB Part #">C126027</field>
-        <field name="Price">0.146</field>
-        <field name="Price ( 1 board)">0.146</field>
-        <field name="Price (5 boards)">0.73</field>
+        <field name="JLCPCB Part #">C5337196</field>
+        <field name="Price">0.072</field>
+        <field name="Price ( 1 board)">0.072</field>
+        <field name="Price (5 boards)">0.36</field>
       </fields>
       <libsource lib="Power module-rescue" part="LM1117-3.3-Regulator_Linear" description=""/>
-      <property name="Price" value="0.146"/>
-      <property name="Price ( 1 board)" value="0.146"/>
-      <property name="Price (5 boards)" value="0.73"/>
-      <property name="JLCPCB Part #" value="C126027"/>
+      <property name="Price" value="0.072"/>
+      <property name="Price ( 1 board)" value="0.072"/>
+      <property name="Price (5 boards)" value="0.36"/>
+      <property name="JLCPCB Part #" value="C5337196"/>
       <property name="Sheetname" value="Regulating"/>
       <property name="Sheetfile" value="Regulating Module.kicad_sch"/>
       <sheetpath names="/Power Module/Regulating/" tstamps="/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d/"/>
@@ -879,14 +959,14 @@
       <value>100nF</value>
       <fields>
         <field name="JLCPCB Part #">C24497</field>
-        <field name="Price">$0.0685</field>
-        <field name="Price ( 1 board)">0.2055</field>
-        <field name="Price (5 boards)">1.0275</field>
+        <field name="Price">0.08</field>
+        <field name="Price ( 1 board)">0.32</field>
+        <field name="Price (5 boards)">1.6</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="$0.0685"/>
-      <property name="Price ( 1 board)" value="0.2055"/>
-      <property name="Price (5 boards)" value="1.0275"/>
+      <property name="Price" value="0.08"/>
+      <property name="Price ( 1 board)" value="0.32"/>
+      <property name="Price (5 boards)" value="1.6"/>
       <property name="JLCPCB Part #" value="C24497"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller schematic.kicad_sch"/>
@@ -921,14 +1001,14 @@
       <value>100nF</value>
       <fields>
         <field name="JLCPCB Part #">C24497</field>
-        <field name="Price">$0.0685</field>
-        <field name="Price ( 1 board)">0.2055</field>
-        <field name="Price (5 boards)">1.0275</field>
+        <field name="Price">0.08</field>
+        <field name="Price ( 1 board)">0.32</field>
+        <field name="Price (5 boards)">1.6</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="$0.0685"/>
-      <property name="Price ( 1 board)" value="0.2055"/>
-      <property name="Price (5 boards)" value="1.0275"/>
+      <property name="Price" value="0.08"/>
+      <property name="Price ( 1 board)" value="0.32"/>
+      <property name="Price (5 boards)" value="1.6"/>
       <property name="JLCPCB Part #" value="C24497"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller schematic.kicad_sch"/>
@@ -942,14 +1022,14 @@
       <value>100nF</value>
       <fields>
         <field name="JLCPCB Part #">C24497</field>
-        <field name="Price">$0.0685</field>
-        <field name="Price ( 1 board)">0.2055</field>
-        <field name="Price (5 boards)">1.0275</field>
+        <field name="Price">0.08</field>
+        <field name="Price ( 1 board)">0.32</field>
+        <field name="Price (5 boards)">1.6</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="$0.0685"/>
-      <property name="Price ( 1 board)" value="0.2055"/>
-      <property name="Price (5 boards)" value="1.0275"/>
+      <property name="Price" value="0.08"/>
+      <property name="Price ( 1 board)" value="0.32"/>
+      <property name="Price (5 boards)" value="1.6"/>
       <property name="JLCPCB Part #" value="C24497"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller schematic.kicad_sch"/>
@@ -1028,6 +1108,7 @@
     <comp ref="J1">
       <value>USB_B_Micro</value>
       <fields>
+        <field name="JLCPCB Part #">C404969</field>
         <field name="Price">$0.0273</field>
         <field name="Price ( 1 board)">0.0273</field>
         <field name="Price (5 boards)">0.1365</field>
@@ -1036,6 +1117,7 @@
       <property name="Price" value="$0.0273"/>
       <property name="Price ( 1 board)" value="0.0273"/>
       <property name="Price (5 boards)" value="0.1365"/>
+      <property name="JLCPCB Part #" value="C404969"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller schematic.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1428,6 +1510,7 @@
       <value>24LC64</value>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Part #">C511260</field>
         <field name="Price">$0.5172</field>
         <field name="Price ( 1 board)">0.5172</field>
         <field name="Price (5 boards)">2.586</field>
@@ -1436,6 +1519,7 @@
       <property name="Price" value="$0.5172"/>
       <property name="Price ( 1 board)" value="0.5172"/>
       <property name="Price (5 boards)" value="2.586"/>
+      <property name="JLCPCB Part #" value="C511260"/>
       <property name="Sheetname" value="Microcontroller"/>
       <property name="Sheetfile" value="Microcontroller schematic.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -1860,7 +1944,6 @@
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="Q" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="VDD" pintype="passive"/>
       <node ref="IC1" pin="6" pinfunction="TOG" pintype="passive"/>
@@ -1869,14 +1952,13 @@
       <node ref="J4" pin="24" pinfunction="Pin_24" pintype="passive"/>
       <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U2" pin="15" pinfunction="VCC" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="A0" pintype="input"/>
       <node ref="U3" pin="2" pinfunction="A1" pintype="input"/>
@@ -1938,11 +2020,10 @@
       <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="12" name="/Power Module/Charging/Vin">
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="VCC4" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="CE" pintype="passive"/>
       <node ref="LEDcharge1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
       <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
     </net>
@@ -2008,186 +2089,205 @@
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(J1-D+)">
+    <net code="19" name="Net-(D4-K)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J1-D+)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(J1-D-)">
+    <net code="21" name="Net-(J1-D-)">
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(J1-VBUS)">
+    <net code="22" name="Net-(J1-VBUS)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(J2-BAT)">
+    <net code="23" name="Net-(J2-BAT)">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="BAT" pintype="passive"/>
-      <node ref="Qrevpol1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(J2-PROG2)">
+    <net code="24" name="Net-(J2-PROG2)">
       <node ref="J2" pin="2" pinfunction="PROG2" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(J2-~{CHRG})">
+    <net code="25" name="Net-(J2-~{CHRG})">
       <node ref="J2" pin="7" pinfunction="~{CHRG}" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(LEDcharge1-K)">
+    <net code="26" name="Net-(LEDcharge1-K)">
       <node ref="LEDcharge1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(Qrevpol2-S)">
-      <node ref="C8" pin="1" pintype="passive"/>
+    <net code="27" name="Net-(Qrevpol1-D)">
+      <node ref="Qrevpol1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Qrevpol2-S)">
       <node ref="Qrevpol2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U1-VI)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="27" name="Net-(U2-USBDM)">
+    <net code="30" name="Net-(U1-VO)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="31" name="Net-(U2-USBDM)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="USBDM" pintype="bidirectional"/>
     </net>
-    <net code="28" name="Net-(U2-USBDP)">
+    <net code="32" name="Net-(U2-USBDP)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="USBDP" pintype="bidirectional"/>
     </net>
-    <net code="29" name="unconnected-(IC1-AHLB-Pad4)">
+    <net code="33" name="unconnected-(IC1-AHLB-Pad4)">
       <node ref="IC1" pin="4" pinfunction="AHLB" pintype="passive+no_connect"/>
     </net>
-    <net code="30" name="unconnected-(J2-EP-Pad9)">
+    <net code="34" name="unconnected-(J2-EP-Pad9)">
       <node ref="J2" pin="9" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
-    <net code="31" name="unconnected-(J2-~{STDBY}-Pad6)">
+    <net code="35" name="unconnected-(J2-~{STDBY}-Pad6)">
       <node ref="J2" pin="6" pinfunction="~{STDBY}" pintype="passive+no_connect"/>
     </net>
-    <net code="32" name="unconnected-(J3-Pin_1-Pad1)">
+    <net code="36" name="unconnected-(J3-Pin_1-Pad1)">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="33" name="unconnected-(J3-Pin_2-Pad2)">
+    <net code="37" name="unconnected-(J3-Pin_2-Pad2)">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(J3-Pin_3-Pad3)">
+    <net code="38" name="unconnected-(J3-Pin_3-Pad3)">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(J3-Pin_4-Pad4)">
+    <net code="39" name="unconnected-(J3-Pin_4-Pad4)">
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(J3-Pin_5-Pad5)">
+    <net code="40" name="unconnected-(J3-Pin_5-Pad5)">
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J3-Pin_6-Pad6)">
+    <net code="41" name="unconnected-(J3-Pin_6-Pad6)">
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J3-Pin_7-Pad7)">
+    <net code="42" name="unconnected-(J3-Pin_7-Pad7)">
       <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J3-Pin_8-Pad8)">
+    <net code="43" name="unconnected-(J3-Pin_8-Pad8)">
       <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J3-Pin_9-Pad9)">
+    <net code="44" name="unconnected-(J3-Pin_9-Pad9)">
       <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J3-Pin_10-Pad10)">
+    <net code="45" name="unconnected-(J3-Pin_10-Pad10)">
       <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J3-Pin_11-Pad11)">
+    <net code="46" name="unconnected-(J3-Pin_11-Pad11)">
       <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J3-Pin_12-Pad12)">
+    <net code="47" name="unconnected-(J3-Pin_12-Pad12)">
       <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J3-Pin_13-Pad13)">
+    <net code="48" name="unconnected-(J3-Pin_13-Pad13)">
       <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J3-Pin_14-Pad14)">
+    <net code="49" name="unconnected-(J3-Pin_14-Pad14)">
       <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J3-Pin_15-Pad15)">
+    <net code="50" name="unconnected-(J3-Pin_15-Pad15)">
       <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(J3-Pin_16-Pad16)">
+    <net code="51" name="unconnected-(J3-Pin_16-Pad16)">
       <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J3-Pin_17-Pad17)">
+    <net code="52" name="unconnected-(J3-Pin_17-Pad17)">
       <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J3-Pin_21-Pad21)">
+    <net code="53" name="unconnected-(J3-Pin_21-Pad21)">
       <node ref="J3" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(J3-Pin_22-Pad22)">
+    <net code="54" name="unconnected-(J3-Pin_22-Pad22)">
       <node ref="J3" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(J4-Pin_1-Pad1)">
+    <net code="55" name="unconnected-(J4-Pin_1-Pad1)">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(J4-Pin_2-Pad2)">
+    <net code="56" name="unconnected-(J4-Pin_2-Pad2)">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(J4-Pin_3-Pad3)">
+    <net code="57" name="unconnected-(J4-Pin_3-Pad3)">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(J4-Pin_4-Pad4)">
+    <net code="58" name="unconnected-(J4-Pin_4-Pad4)">
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(J4-Pin_5-Pad5)">
+    <net code="59" name="unconnected-(J4-Pin_5-Pad5)">
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(J4-Pin_6-Pad6)">
+    <net code="60" name="unconnected-(J4-Pin_6-Pad6)">
       <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(J4-Pin_7-Pad7)">
+    <net code="61" name="unconnected-(J4-Pin_7-Pad7)">
       <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(J4-Pin_14-Pad14)">
+    <net code="62" name="unconnected-(J4-Pin_14-Pad14)">
       <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(J4-Pin_17-Pad17)">
+    <net code="63" name="unconnected-(J4-Pin_17-Pad17)">
       <node ref="J4" pin="17" pinfunction="Pin_17" pintype="passive+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(J4-Pin_18-Pad18)">
+    <net code="64" name="unconnected-(J4-Pin_18-Pad18)">
       <node ref="J4" pin="18" pinfunction="Pin_18" pintype="passive+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(J4-Pin_19-Pad19)">
+    <net code="65" name="unconnected-(J4-Pin_19-Pad19)">
       <node ref="J4" pin="19" pinfunction="Pin_19" pintype="passive+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(J4-Pin_20-Pad20)">
+    <net code="66" name="unconnected-(J4-Pin_20-Pad20)">
       <node ref="J4" pin="20" pinfunction="Pin_20" pintype="passive+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(J4-Pin_21-Pad21)">
+    <net code="67" name="unconnected-(J4-Pin_21-Pad21)">
       <node ref="J4" pin="21" pinfunction="Pin_21" pintype="passive+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(J4-Pin_22-Pad22)">
+    <net code="68" name="unconnected-(J4-Pin_22-Pad22)">
       <node ref="J4" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U2-CBUS1-Pad17)">
+    <net code="69" name="unconnected-(U2-CBUS1-Pad17)">
       <node ref="U2" pin="17" pinfunction="CBUS1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U2-CBUS2-Pad10)">
+    <net code="70" name="unconnected-(U2-CBUS2-Pad10)">
       <node ref="U2" pin="10" pinfunction="CBUS2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U2-CBUS3-Pad19)">
+    <net code="71" name="unconnected-(U2-CBUS3-Pad19)">
       <node ref="U2" pin="19" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U2-~{CTS}-Pad9)">
+    <net code="72" name="unconnected-(U2-~{CTS}-Pad9)">
       <node ref="U2" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U2-~{DCD}-Pad8)">
+    <net code="73" name="unconnected-(U2-~{DCD}-Pad8)">
       <node ref="U2" pin="8" pinfunction="~{DCD}" pintype="input+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U2-~{DSR}-Pad7)">
+    <net code="74" name="unconnected-(U2-~{DSR}-Pad7)">
       <node ref="U2" pin="7" pinfunction="~{DSR}" pintype="input+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U2-~{DTR}-Pad1)">
+    <net code="75" name="unconnected-(U2-~{DTR}-Pad1)">
       <node ref="U2" pin="1" pinfunction="~{DTR}" pintype="output+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U2-~{RI}-Pad5)">
+    <net code="76" name="unconnected-(U2-~{RI}-Pad5)">
       <node ref="U2" pin="5" pinfunction="~{RI}" pintype="input+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U2-~{RTS}-Pad2)">
+    <net code="77" name="unconnected-(U2-~{RTS}-Pad2)">
       <node ref="U2" pin="2" pinfunction="~{RTS}" pintype="output+no_connect"/>
     </net>
   </nets>
