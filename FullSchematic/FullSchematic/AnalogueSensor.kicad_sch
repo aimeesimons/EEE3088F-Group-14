@@ -326,7 +326,7 @@
     (property "Value" "LDR03" (at 83.058 79.883 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OptoDevice:R_LDR_7x6mm_P5.1mm_Vertical" (at 85.725 78.74 90)
+    (property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" (at 85.725 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" (at 81.28 80.01 0)
