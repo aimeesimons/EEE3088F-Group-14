@@ -1,4 +1,4 @@
-21571071782915220
+21576108662595702
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83474,6 +83474,27 @@ Battery
 0
 2
 2
+SpecificFootprints
+CAPC1608X90N
+CL10A106MQ8NNNC
+Capacitor
+0
+2
+2
+SpecificFootprints
+DIOAD1405W86L465D235
+1N4001
+Diode
+0
+2
+2
+SpecificFootprints
+MICROXNJ
+MICROXNJ
+Connector
+0
+9
+9
 SpecificFootprints
 RESC2013X65N
 0805W8F4701T5E
