@@ -2086,7 +2086,7 @@
     (property "Value" "USB_B_Micro" (at 132.2578 48.8696 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 134.62 59.69 0)
+    (property "Footprint" "SpecificFootprints:MICROXNJ" (at 134.62 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 59.69 0)
