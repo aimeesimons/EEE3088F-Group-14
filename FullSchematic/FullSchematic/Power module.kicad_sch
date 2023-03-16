@@ -190,7 +190,7 @@
     (property "Value" "Battery_Cell" (at 157.9372 81.153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.94 79.756 90)
+    (property "Footprint" "Library:BH18650PC" (at 154.94 79.756 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 79.756 90)

@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a7f0d47f5e40f6d25af6e0a48bafeaab5a238584
-=======
->>>>>>> 290b670a6729752ebf3553d6e6cffbf4f5161b9e
-21576108662595702
+21582824724792369
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60727,6 +60717,69 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+BH18650PC
+BH-18650-PC-1
+Battery
+0
+2
+2
+Library
+CAPC1608X90N
+CL10A106MQ8NNNC
+Capacitor
+0
+2
+2
+Library
+DIOAD1405W86L465D235
+1N4001
+Diode
+0
+2
+2
+Library
+MICROXNJ
+MICROXNJ
+Connector
+0
+9
+9
+Library
+RESC2013X65N
+0805W8F4701T5E
+Resistor
+0
+2
+2
+Library
+SOIC127P600X175-8N
+(OA) – Narrow, 3.90 mm Body [SOIC]
+Integrated Circuit
+0
+8
+8
+Library
+SOIC127P600X175-9N
+SOP-8
+Connector
+0
+9
+9
+Library
+SOT95P237X112-3N
+SOT-23-3
+MOSFET (P-Channel)
+0
+3
+3
+Library
+SOT230P700X180-4N
+dcy
+Integrated Circuit
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -83477,41 +83530,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-SpecificFootprints
-BH18650PC
-BH-18650-PC-1
-Battery
-0
-2
-2
-SpecificFootprints
-CAPC1608X90N
-CL10A106MQ8NNNC
-Capacitor
-0
-2
-2
-SpecificFootprints
-DIOAD1405W86L465D235
-1N4001
-Diode
-0
-2
-2
-SpecificFootprints
-MICROXNJ
-MICROXNJ
-Connector
-0
-9
-9
-SpecificFootprints
-RESC2013X65N
-0805W8F4701T5E
-Resistor
-0
-2
-2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -90113,18 +90131,3 @@ varistor
 0
 2
 2
-=======
-0
->>>>>>> parent of 4f67563 (added more footprints)
-=======
-0
->>>>>>> parent of 4f67563 (added more footprints)
-=======
-0
->>>>>>> parent of 4f67563 (added more footprints)
-<<<<<<< HEAD
-=======
-0
->>>>>>> parent of 4f67563 (added more footprints)
-=======
->>>>>>> a7f0d47f5e40f6d25af6e0a48bafeaab5a238584
