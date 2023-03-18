@@ -119,6 +119,7 @@
     )
   )
 
+
   (junction (at 132.08 76.2) (diameter 0) (color 0 0 0 0)
     (uuid b4186a27-d743-4403-af1e-057326cd1ed9)
   )
@@ -190,7 +191,7 @@
     (property "Value" "Battery_Cell" (at 157.9372 81.153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650" (at 154.94 79.756 90)
+    (property "Footprint" "Library:18650_Holder_SMD" (at 154.94 79.756 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 79.756 90)
