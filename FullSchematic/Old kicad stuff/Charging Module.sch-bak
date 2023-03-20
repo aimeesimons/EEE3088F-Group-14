@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Charging Module"
+Date "2023-03-05"
+Rev "V1.0"
+Comp "EEE3088F - Group 14"
+Comment1 "Designed by Ashik John"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:MCP73831-2-OT CG1
+U 1 1 640504E5
+P 5650 4150
+F 0 "CG1" H 5650 4850 50  0000 C CNN
+F 1 "MCP73831T-2ACI/OT" H 5650 4750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5700 3900 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5500 4100 50  0001 C CNN
+F 4 "0.7664" H 5650 4150 50  0001 C CNN "Price"
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 3650 1    50   Input ~ 0
+Vin
+$Comp
+L pspice:0 #GND0102
+U 1 1 6405869F
+P 5650 4700
+F 0 "#GND0102" H 5650 4600 50  0001 C CNN
+F 1 "0" H 5650 4600 50  0000 C CNN
+F 2 "" H 5650 4700 50  0001 C CNN
+F 3 "~" H 5650 4700 50  0001 C CNN
+	1    5650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4450 5650 4550
+Wire Wire Line
+	5250 4250 5250 4350
+Wire Wire Line
+	5250 4550 5650 4550
+Wire Wire Line
+	5650 4550 5650 4700
+Connection ~ 5650 4550
+Text Notes 3950 4650 0    39   ~ 0
+This sets the charging current to 500mA
+$Comp
+L Device:R_Small_US R1
+U 1 1 6405CCD7
+P 5250 4450
+F 0 "R1" H 5100 4500 50  0000 L CNN
+F 1 "2k" H 5100 4400 50  0000 L CNN
+F 2 "" H 5250 4450 50  0001 C CNN
+F 3 "~" H 5250 4450 50  0001 C CNN
+F 4 "0.001" H 5250 4450 50  0001 C CNN "Price"
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6405DAF0
+P 5000 3850
+F 0 "C1" H 5092 3896 50  0000 L CNN
+F 1 "4.7u" H 5092 3805 50  0000 L CNN
+F 2 "CL10A475KO8NNNC" H 5000 3850 50  0001 C CNN
+F 3 "~" H 5000 3850 50  0001 C CNN
+F 4 "0.01" H 5000 3850 50  0001 C CNN "Price"
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6405ED46
+P 6200 4150
+F 0 "C2" H 6292 4196 50  0000 L CNN
+F 1 "4.7u" H 6292 4105 50  0000 L CNN
+F 2 "CL10A475KO8NNNC" H 6200 4150 50  0001 C CNN
+F 3 "~" H 6200 4150 50  0001 C CNN
+F 4 "0.01" H 6200 4150 50  0001 C CNN "Price"
+	1    6200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0103
+U 1 1 64061489
+P 5000 4000
+F 0 "#GND0103" H 5000 3900 50  0001 C CNN
+F 1 "0" H 5000 3900 50  0000 C CNN
+F 2 "" H 5000 4000 50  0001 C CNN
+F 3 "~" H 5000 4000 50  0001 C CNN
+	1    5000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3650 4200 3750
+Wire Wire Line
+	4200 3750 4550 3750
+Wire Wire Line
+	4850 3750 5000 3750
+Wire Wire Line
+	5000 3750 5650 3750
+Wire Wire Line
+	5650 3750 5650 3850
+Connection ~ 5000 3750
+Wire Wire Line
+	5000 3950 5000 4000
+$Comp
+L Diode:1N5819 D1
+U 1 1 64062EF8
+P 4700 3750
+F 0 "D1" H 4700 3533 50  0000 C CNN
+F 1 "1N5819" H 4700 3624 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4700 3575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4700 3750 50  0001 C CNN
+F 4 "0.0167" H 4700 3750 50  0001 C CNN "Price"
+	1    4700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:Si2371EDS Q2
+U 1 1 64067F04
+P 6700 4050
+F 0 "Q2" H 6750 4550 50  0000 C CNN
+F 1 "SI2305DS-T1-GE3" H 6750 4450 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 3975 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/63924/si2371eds.pdf" H 6700 4050 50  0001 L CNN
+F 4 "	0.072" H 6700 4050 50  0001 C CNN "Price"
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND0104
+U 1 1 6406E02F
+P 6800 4400
+F 0 "#GND0104" H 6800 4300 50  0001 C CNN
+F 1 "0" H 6800 4300 50  0000 C CNN
+F 2 "" H 6800 4400 50  0001 C CNN
+F 3 "~" H 6800 4400 50  0001 C CNN
+	1    6800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4250 6800 4400
+Text GLabel 7000 3850 2    50   Output ~ 0
+B+
+Wire Wire Line
+	6800 3850 7000 3850
+Wire Wire Line
+	6050 4050 6200 4050
+Wire Wire Line
+	6500 4050 6200 4050
+Connection ~ 6200 4050
+$Comp
+L pspice:0 #GND0105
+U 1 1 64073C96
+P 6200 4350
+F 0 "#GND0105" H 6200 4250 50  0001 C CNN
+F 1 "0" H 6200 4250 50  0000 C CNN
+F 2 "" H 6200 4350 50  0001 C CNN
+F 3 "~" H 6200 4350 50  0001 C CNN
+	1    6200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4250 6200 4300
+$Comp
+L Device:R_Small_US R2
+U 1 1 64075C42
+P 6500 4200
+F 0 "R2" H 6550 4100 50  0000 L CNN
+F 1 "47k" H 6550 4200 50  0000 L CNN
+F 2 "" H 6500 4200 50  0001 C CNN
+F 3 "~" H 6500 4200 50  0001 C CNN
+F 4 "0.001" H 6500 4200 50  0001 C CNN "Price"
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4050 6500 4100
+Connection ~ 6500 4050
+Wire Wire Line
+	6500 4300 6200 4300
+Connection ~ 6200 4300
+Wire Wire Line
+	6200 4300 6200 4350
+$EndSCHEMATC

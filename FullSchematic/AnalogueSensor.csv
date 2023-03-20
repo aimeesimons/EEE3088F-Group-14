@@ -1,0 +1,20 @@
+Source:;C:\Users\Aimee Simons\Desktop\2023\EEE3088F-Group-14\AnalogueSensor\AnalogueSensor.sch;;;;;;;
+Date:;2023/03/05 20:59;;;;;;;
+Tool:;Eeschema (5.1.10)-1;;;;;;;
+Generator:;C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py;;;;;;;
+Component Count:;2;;;;;;;
+;;;;;;;;
+Individual Components:;;;;;;;;
+;;;;;;;;
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Price (Dollars);
+;;R1;180;Device:R_Small;Resistor_SMD:R_0201_0603Metric;~;0.0017;
+;;R2;LDR03;Sensor_Optical:LDR03;OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical;http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf;0.04;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+Collated Components:;;;;;;;;
+;;;;;;;;
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Price (Dollars);Price (Rands)
+1;1;R1;180;Device:R_Small;Resistor_SMD:R_0201_0603Metric;~;0.0017;0.030838
+2;1;R2;LDR03;Sensor_Optical:LDR03;OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical;http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf;0.04;0.7256
+;;;;;;;0.0417;0.756438

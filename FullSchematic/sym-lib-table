@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Sensors-rescue")(type "KiCad")(uri "${KIPRJMOD}/Sensors-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "UCT")(type "KiCad")(uri "C:/Users/Aimee Simons/Desktop/2023/Lectures/Semester 1/EEE3088F/EEE3088F Project/uct_kicad_library/symbols/UCT.kicad_sym")(options "")(descr ""))
+)
