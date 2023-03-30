@@ -696,36 +696,6 @@
     )
   )
 
-  (symbol (lib_id "Power module-rescue:0-pspice") (at 133.35 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00006408a238)
-    (property "Reference" "#GND0106" (at 133.35 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "0" (at 133.35 114.3 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 133.35 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 133.35 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2ae2abf7-4f95-4032-b2fc-862a73e63535))
-    (instances
-      (project "Power module"
-        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-00006405027d"
-          (reference "#GND0106") (unit 1)
-        )
-      )
-      (project "FullSchematic"
-        (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
-          (reference "#GND0106") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Power module-rescue:0-pspice") (at 116.84 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006408a7ba)
@@ -751,36 +721,6 @@
       (project "FullSchematic"
         (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
           (reference "#GND0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Power module-rescue:0-pspice") (at 146.05 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00006408aba4)
-    (property "Reference" "#GND0108" (at 146.05 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "0" (at 146.05 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 146.05 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 146.05 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b2184f51-787e-4b59-9819-7ab416aec9c8))
-    (instances
-      (project "Power module"
-        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-00006405027d"
-          (reference "#GND0108") (unit 1)
-        )
-      )
-      (project "FullSchematic"
-        (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
-          (reference "#GND0108") (unit 1)
         )
       )
     )
@@ -913,6 +853,72 @@
       (project "FullSchematic"
         (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
           (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 133.35 110.49 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 672fbf6e-af08-4245-97b0-d275d9beadc3)
+    (property "Reference" "#PWR04" (at 133.35 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 133.35 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5d624123-c792-4ba8-923b-7e5b0f068b46))
+    (instances
+      (project "Power module"
+        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-0000640501de"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-00006405027d"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FullSchematic"
+        (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 146.05 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8b068c68-aa6d-4e36-9b24-f0358bb39d4d)
+    (property "Reference" "#PWR04" (at 146.05 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 146.05 105.41 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 146.05 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 146.05 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3b88758c-3d4d-4ecb-9aa0-e36a1907df49))
+    (instances
+      (project "Power module"
+        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-0000640501de"
+          (reference "#PWR04") (unit 1)
+        )
+        (path "/4323dbc9-3623-4dbc-9566-44afc0929253/00000000-0000-0000-0000-00006405027d"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FullSchematic"
+        (path "/5dd86611-a33d-45ee-946c-01c599f30b12/58d1f368-4b84-4dfe-a353-084728cf6b07/00000000-0000-0000-0000-00006405027d"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
