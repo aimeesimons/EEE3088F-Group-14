@@ -1,4 +1,4 @@
-21594601942218809
+21596264602773617
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60815,6 +60815,13 @@ Integrated Circuit
 0
 3
 3
+Library
+Temp Schottky
+SL04-HE3-18-1
+Diode
+0
+2
+2
 Library
 TestPoint_Pad_4.0x4.0mm
 SMD rectangular pad as test Point, square 4.0mm side length

@@ -624,7 +624,7 @@
     (property "Value" "LM1117-3.3" (at 133.35 88.8746 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Library:SOT230P700X180-4N" (at 133.35 92.71 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (at 133.35 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 133.35 92.71 0)
