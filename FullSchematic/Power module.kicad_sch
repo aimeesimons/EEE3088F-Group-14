@@ -877,7 +877,7 @@
     (uuid 82272246-2950-4f0e-b343-031e2a88afb2)
   )
 
-  (hierarchical_label "Vboard" (shape input) (at 40.64 123.19 0) (fields_autoplaced)
+  (hierarchical_label "Vboard" (shape output) (at 40.64 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8ee088e7-372a-4236-ad8d-8fd84fe876f3)
   )
