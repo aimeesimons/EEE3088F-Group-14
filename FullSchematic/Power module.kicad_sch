@@ -907,7 +907,7 @@
     (property "Price (5 boards)" "7.05" (at 154.94 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Part #" "C2988620" (at 154.94 81.28 0)
+    (property "JLCPCB Part #" "" (at 154.94 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Price" "1.41" (at 154.94 81.28 0)

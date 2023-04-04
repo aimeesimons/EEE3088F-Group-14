@@ -709,7 +709,7 @@
     (property "Datasheet" "~" (at 199.517 85.852 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Part #" "N/A" (at 199.517 85.852 0)
+    (property "JLCPCB Part #" "" (at 199.517 85.852 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Populate" "No" (at 199.517 85.852 0)
