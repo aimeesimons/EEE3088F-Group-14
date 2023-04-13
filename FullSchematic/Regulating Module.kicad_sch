@@ -615,7 +615,7 @@
     (uuid 98d9275f-86f5-4a35-a0e3-713b11c0a264)
   )
 
-  (symbol (lib_id "Power module-rescue:LM1117-3.3-Regulator_Linear") (at 133.35 92.71 0) (mirror y) (unit 1)
+  (symbol (lib_id "Power module-rescue:LM1117-3.3-Regulator_Linear") (at 133.35 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006408724e)
     (property "Reference" "U2" (at 133.35 86.5632 0)
